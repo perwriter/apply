@@ -12,7 +12,7 @@ const Pricing = () => {
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">Biweekly</h3>
             <p className="text-gray-600 mb-6">$60</p>
             <p className="text-gray-600 mb-6">
-              - Apply to 1-20 relevant jobs every day for 6 days.
+              - Apply to 5-20 relevant jobs every day for 6 days.
             </p>
             <p className="text-gray-600 mb-6">
               - Fill in details in your account.
@@ -42,7 +42,7 @@ const Pricing = () => {
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">6-Month Offer</h3>
             <p className="text-gray-600 mb-6">$250</p>
             <p className="text-gray-600 mb-6">
-              - Apply to approximately 1-1000 relevant jobs until you're hired within 6 months.
+              - Apply to approximately 200-1000 relevant jobs until you're hired within 6 months.
             </p>
             <p className="text-gray-600 mb-6">
               - Fill in the jobs in your account.

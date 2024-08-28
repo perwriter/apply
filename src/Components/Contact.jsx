@@ -18,8 +18,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    emailjs.sendForm('pfuzpcc', 'vkb2hum', form.current, {publicKey: 'fFWoEihmD8WJX2s_p',})
+    emailjs.sendForm('service_pfuzpcc', 'template_vkb2hum', form.current, {publicKey: 'fFWoEihmD8WJX2s_p',})
       .then((result) => {
         setStatus('Email sent successfully!');
         setFormData({ name: '', email: '', message: '' });
