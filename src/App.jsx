@@ -10,10 +10,10 @@ import Jobsearch from "./Pages/Jobsearch";
 import Profile from "./Pages/Profile";
 import Settings from "./Pages/Settings";
 import Landing from "./Pages/Landing"; // Import the Landing Page
-// import Assistant from "./Components/Assistant";
-// import Contact from "./Components/Contact";
-// import Pricing from "./Components/Pricing";
-// import Aboutus from "./Components/Aboutus";
+import Assistant from "./Components/Assistant";
+import Contact from "./Components/Contact";
+import Pricing from "./Components/Pricing";
+import Aboutus from "./Components/Aboutus";
 
 function App() {
   return (
@@ -23,10 +23,10 @@ function App() {
           <Route index element={<Landing />} /> {/* Set Landing as Default */}
           <Route path="signup" element={<Signup />} />
           <Route path="login" element={<Login />} />
-          {/* <Route path="about_us" element={<Aboutus/>}/>
+          <Route path="about" element={<Aboutus/>}/>
           <Route path="assistant" element={<Assistant/>}/>
           <Route path="pricing" element={<Pricing/>}/>
-          <Route path="contact" element={<Contact/>}/> */}
+          <Route path="contact" element={<Contact/>}/>
         </Route>
         <Route path="/dashboard" element={<DashboardLayout />}>
           <Route index element={<Dashboard />} />

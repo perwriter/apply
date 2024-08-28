@@ -100,7 +100,7 @@ const Footer = () => {
         </div>
 
         {/* Copyright Info */}
-        <div className="mt-12 text-center text-gray-500 border-t border-gray-700 pt-4">
+        <div className="mt-12 text-center text-gray-500 border-t border-gray-100 pt-4">
           <p>&copy; 2024 applylikeme.com. All rights reserved.</p>
         </div>
       </div>

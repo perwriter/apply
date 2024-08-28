@@ -8,7 +8,7 @@ import Aboutus from '../Components/Aboutus'
 
 const Landing = () => {
   return (
-    <div>
+    <div className='scrollbar'>
       <Hero/>
       <Assistant/>
       <Aboutus/>
