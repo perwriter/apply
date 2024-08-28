@@ -23,6 +23,11 @@ export default {
       'blue': '#13296F',
       'blue-light': '#F6F9FF',
       'error': '#E53838',
+      primary: '#1a2d7d', // Dark Blue (adjust as needed)
+      secondary: '#552989',
+    },
+    fontFamily: {
+      sans: ['monospace', 'sans-serif'], // Replace with your preferred font
     },
     extend: {},
   },

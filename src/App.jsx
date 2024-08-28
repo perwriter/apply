@@ -9,13 +9,14 @@ import Applications from "./Pages/Applications";
 import Jobsearch from "./Pages/Jobsearch";
 import Profile from "./Pages/Profile";
 import Settings from "./Pages/Settings";
+import Landing from "./Pages/Landing"; // Import the Landing Page
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Login />} />
+          <Route index element={<Landing />} /> {/* Set Landing as Default */}
           <Route path="signup" element={<Signup />} />
           <Route path="login" element={<Login />} />
         </Route>
