@@ -26,11 +26,7 @@ const Hero = () => {
             <button className="mt-8 bg-secondary text-white py-2 px-6 rounded-lg shadow-lg hover:bg-primary">
               Get Started
             </button>
-          </Link>
-          <div className='w-full pt-20'>
-
-          <img src="/sankey.svg" alt="Sankey Diagram" className="w-full h-[200px]" />
-          </div>
+          </Link>        
         </div>
       </div>
     );
