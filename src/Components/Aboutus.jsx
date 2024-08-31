@@ -8,21 +8,12 @@ const AboutUs = () => {
         <div className="w-full md:w-1/2 md:pl-12">
           <h2 className="text-4xl font-bold text-primary mb-4">About Us</h2>
           <p className="text-lg text-gray-600 mb-6">
-            We are a team of virtual assistants ready to help you with the hassle of job applications. Our team, equipped with excellent research skills, helps you find jobs that match your qualifications and sends applications on your behalf.
-          </p>
+    Our platform offers you a seamless way to track your job applications and build a professional portfolio. Plus, our team of skilled virtual assistants is here to take the stress out of job searching by handling the research and applications for you.
+</p>
+
 
           <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-12">
-            <div className="flex items-start">
-              {/* <div className="text-2xl text-primary mr-4">📋</div> */}
-              {/* <div>
-                <h4 className="font-bold mb-2">Why APPLYLIKEME?</h4>
-                <p className="text-gray-600">
-                  We give personalized attention by providing you with a spreadsheet link of jobs applied to.
-                </p>
-              </div> */}
-            </div>
-
-            <div className="flex items-start">
+             <div className="flex items-start">
               <div className="text-2xl text-primary mr-4">📊</div>
               <div>
                 <h4 className="font-bold mb-2">WHY SANKEY-DIAGRAM?</h4>
