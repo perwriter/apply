@@ -39,7 +39,7 @@ const Pricing = () => {
 
           {/* 6-Month Plan */}
           <div className="bg-white p-8 rounded-lg shadow-md">
-            <h3 className="text-2xl font-semibold text-gray-800 mb-4">6-Month Offer</h3>
+            <h3 className="text-2xl font-semibold text-gray-800 mb-4">3-Month Offer</h3>
             <p className="text-gray-600 mb-6">$250</p>
             <p className="text-gray-600 mb-6">
               - Apply to approximately 200-1000 relevant jobs until you're hired within 6 months.

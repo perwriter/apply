@@ -1,4 +1,4 @@
-import { BsBriefcaseFill, BsFillPersonFill } from "react-icons/bs";
+import { BsBriefcaseFill, BsCash, BsFillPersonFill } from "react-icons/bs";
 import { AiFillFolderOpen } from "react-icons/ai";
 import { RiLayoutMasonryFill } from "react-icons/ri";
 
@@ -27,6 +27,12 @@ export const SidebarMenuItem = () => [
     label: "Profile",
     icon: <BsFillPersonFill />,
     path: "profile",
+  },
+  {
+    id: 3,
+    label: "Pricing",
+    icon: <BsCash />,
+    path: "pricing",
   },
 ];
 

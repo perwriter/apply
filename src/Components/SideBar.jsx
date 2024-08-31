@@ -69,7 +69,9 @@ const SideBar = () => {
       >
         <div className="rounded-[20px] overflow-y-auto px-4 bg-[#19211D] text-white h-full">
           <div className="flex items-center justify-between pl-6">
+            <Link to="/">
             <p className="text-2xl font-mono font-semibold">ApplyLikeMe</p>
+            </Link>
             <button
               className="text-xl lg:hidden"
               title="Minimize Sidebar"

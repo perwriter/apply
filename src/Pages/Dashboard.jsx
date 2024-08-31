@@ -113,18 +113,24 @@ const Dashboard = () => {
         <h1 className="font-bold text-[#2A2A2A] text-xl lg:text-2xl">
           {getGreeting()} {userName || "User"},
         </h1>
-        <div className="gap-2 items-center border-l-2 border-[#5D6661] pl-4 hidden lg:flex">
+        {/* <div className="gap-2 items-center border-l-2 border-[#5D6661] pl-4 hidden lg:flex">
           <div>
             <p className="text-[12px]">{userName || "User"}</p>
-            <p className="text-[12px]">{userEmail || "you@beautiful.com"}</p>
+            <p className="text-[12px]">{userEmail || "you@email.com"}</p>
           </div>
-        </div>
+        </div> */}
+        <div className="w-10 h-10 bg-black rounded-full flex items-center justify-center">
+      <span className="text-white font-bold">
+        {userName ? userName.charAt(0).toUpperCase() : "U"}
+      </span>
+      </div>
+     
       </div>
       <div className="rounded-lg mb-4">
         <div>
           <h2 className="text-xl text-gray-dark">Getting Started</h2>
           <div className="w-44 bg-light-gray rounded-full h-1.5 mt-1.5">
-            <div className="bg-dark-gray h-1.5 rounded-full w-20"></div>
+            <div className="bg-dark-gray h-1.5 rounded-full w-24"></div>
           </div>
           <p className="mt-1 text-[12px]">45% done</p>
           <div className="mt-6 grid grid-cols-2 lg:grid-cols-4 gap-3 mb-12">

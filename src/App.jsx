@@ -31,6 +31,7 @@ function App() {
         <Route path="/dashboard" element={<DashboardLayout />}>
           <Route index element={<Dashboard />} />
           <Route path="dashboard" element={<Dashboard />} />
+          <Route path="pricing" element={<Pricing/>}/>
           <Route path="applications" element={<Applications />} />
           <Route path="job" element={<Jobsearch />} />
           <Route path="profile" element={<Profile />} />

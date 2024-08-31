@@ -14,8 +14,10 @@ const Hero = () => {
 
   
         <div className="flex flex-col items-center justify-center flex-grow px-6 text-center">
-        <h2 className="text-5xl font-bold text-primary mb-4">
-    Apply for Jobs with Confidence
+        <h2 className="text-5xl font-bold text-primary mb-4 leading-[1.25]">
+        Track Your Applications 
+         <br/>
+        Apply Like a Pro
   </h2>
   <p className="text-lg text-gray-600 max-w-xl">
     We handle the research, send out applications, manage your submissions, follow up on your behalf, and notify you when interviews are scheduled. 
