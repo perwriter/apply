@@ -29,6 +29,7 @@ const Navbar = () => {
             {/* <Link to="/assistant" className="hover:text-primary hover:underline">Assistant</Link> */}
             <Link to="/pricing" className="hover:text-primary hover:underline">Pricing</Link>
             <Link to="/contact" className="hover:text-primary hover:underline">Contact Us</Link>
+            <Link to="/resume" className="hover:text-primary hover:underline">Resume</Link>
           </div>
   
           {/* Mobile Menu Button */}
@@ -90,6 +91,7 @@ const Navbar = () => {
             {/* <Link to="/assistant" className="hover:text-secondary hover:underline text-xl mb-4" onClick={toggleMenu}>Assistant</Link> */}
             <Link to="/pricing" className="hover:text-secondary hover:underline text-xl mb-4" onClick={toggleMenu}>Pricing</Link>
             <Link to="/contact" className="hover:text-secondary hover:underline text-xl mb-4" onClick={toggleMenu}>Contact Us</Link>
+            <Link to="/resume" className="hover:text-secondary hover:underline text-xl mb-4" onClick={toggleMenu}>Resume</Link>
             <Link to="/login" className=" md:block">
             <button className="bg-secondary text-white py-2 px-6 rounded-lg shadow-lg hover:bg-primary">
               Login

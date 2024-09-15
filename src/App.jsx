@@ -14,6 +14,7 @@ import Assistant from "./Components/Assistant";
 import Contact from "./Components/Contact";
 import Pricing from "./Components/Pricing";
 import Aboutus from "./Components/Aboutus";
+import Resume from "./Pages/Resume";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="about" element={<Aboutus/>}/>
           <Route path="assistant" element={<Assistant/>}/>
           <Route path="pricing" element={<Pricing/>}/>
+          <Route path="resume" element={<Resume/>} />
           <Route path="contact" element={<Contact/>}/>
         </Route>
         <Route path="/dashboard" element={<DashboardLayout />}>
@@ -34,6 +36,7 @@ function App() {
           <Route path="pricing" element={<Pricing/>}/>
           <Route path="applications" element={<Applications />} />
           <Route path="job" element={<Jobsearch />} />
+          <Route path="resume" element={<Resume/>} />
           <Route path="profile" element={<Profile />} />
           <Route path="settings" element={<Settings />} />
         </Route>

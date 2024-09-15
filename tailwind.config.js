@@ -20,6 +20,7 @@ export default {
       'red-light': '#FEEAEC',
       'orange': '#483B1C',
       'orange-light': '#FFF5DA',
+      'orange1': '#FFA500',
       'blue': '#13296F',
       'blue-light': '#F6F9FF',
       'error': '#E53838',
