@@ -30,7 +30,7 @@ const Pricing = () => {
           {/* Two-Week Plan */}
           <div className="bg-white p-8 rounded-lg shadow-md">
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">Two Weeks</h3>
-            <p className="text-gray-600 mb-6">$190/2 weeks</p>
+            <p className="text-gray-600 mb-6">$190/ Biweekly</p>
             <p className="text-gray-600 mb-6">- We apply approximately 5-20 relevant jobs every day for two weeks.</p>
             <button className="bg-primary text-white px-6 py-2 rounded-lg hover:bg-primary-dark">
               Choose Plan
