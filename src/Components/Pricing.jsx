@@ -11,7 +11,7 @@ const Pricing = () => {
           <div className="bg-white p-8 rounded-lg shadow-md">
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">Daily</h3>
             <p className="text-gray-600 mb-6">$25/day</p>
-            <p className="text-gray-600 mb-6">- Apply to relevant jobs daily.</p>
+            <p className="text-gray-600 mb-6">- We apply approximately 5-20 relevant jobs daily.</p>
             <button className="bg-primary text-white px-6 py-2 rounded-lg hover:bg-primary-dark">
               Choose Plan
             </button>
@@ -20,8 +20,8 @@ const Pricing = () => {
           {/* One-Week Plan */}
           <div className="bg-white p-8 rounded-lg shadow-md">
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">One Week</h3>
-            <p className="text-gray-600 mb-6">$22/day</p>
-            <p className="text-gray-600 mb-6">- Apply to relevant jobs every day for one week.</p>
+            <p className="text-gray-600 mb-6">$100/week</p>
+            <p className="text-gray-600 mb-6">- We apply approximately 5-20 relevant jobs every day for one week.</p>
             <button className="bg-primary text-white px-6 py-2 rounded-lg hover:bg-primary-dark">
               Choose Plan
             </button>
@@ -30,8 +30,8 @@ const Pricing = () => {
           {/* Two-Week Plan */}
           <div className="bg-white p-8 rounded-lg shadow-md">
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">Two Weeks</h3>
-            <p className="text-gray-600 mb-6">$20/day</p>
-            <p className="text-gray-600 mb-6">- Apply to relevant jobs every day for two weeks.</p>
+            <p className="text-gray-600 mb-6">$190/2 weeks</p>
+            <p className="text-gray-600 mb-6">- We apply approximately 5-20 relevant jobs every day for two weeks.</p>
             <button className="bg-primary text-white px-6 py-2 rounded-lg hover:bg-primary-dark">
               Choose Plan
             </button>
@@ -40,8 +40,8 @@ const Pricing = () => {
           {/* Monthly Plan */}
           <div className="bg-white p-8 rounded-lg shadow-md">
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">One Month</h3>
-            <p className="text-gray-600 mb-6">$15/day</p>
-            <p className="text-gray-600 mb-6">- Apply to relevant jobs every day for one month.</p>
+            <p className="text-gray-600 mb-6">$350/month</p>
+            <p className="text-gray-600 mb-6">- We apply approximately 5-20 relevant jobs every day for one month.</p>
             <button className="bg-primary text-white px-6 py-2 rounded-lg hover:bg-primary-dark">
               Choose Plan
             </button>
@@ -52,8 +52,8 @@ const Pricing = () => {
         {/* Subscription Plan */}
         <div className="mt-16">
           <h3 className="text-2xl font-semibold text-gray-800 mb-4">Subscription Plan</h3>
-          <p className="text-gray-600 mb-6">$5/month</p>
-          <p className="text-gray-600 mb-6">- Access filtered job links with higher chances of recruiter replies.</p>
+          <p className="text-gray-600 mb-6">$10/month</p>
+          <p className="text-gray-600 mb-6">- Access filtered job links with a higher probability of recruiter replies.</p>
           <button className="bg-primary text-white px-6 py-2 rounded-lg hover:bg-primary-dark">
             Subscribe Now
           </button>
